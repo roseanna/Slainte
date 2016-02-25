@@ -18,88 +18,63 @@
 
     <!-- Custom styles for this template -->
     <link href="./Navbar Template for Bootstrap_files/navbar.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script type="text/javascript" src="bandbio.js"></script>
+
 </head>
-    <div class="container">
-      <!-- Static navbar -->
-	    <nav class="navbar navbar-default">
-	        <div class="container-fluid">
-	          <div class="navbar-header">
-	            <a id="ProjectName" class="navbar-brand">Slainte The Band</a>
-	          </div>
-	          <div id="navbar" class="navbar-collapse collapse">
-	            <ul class="nav navbar-nav">
-	              <li><a href="index.html">Home</a></li>
-	              <li class="active"><a href="bandbios.html">Band Bios</a></li>
-	              <li><a href="videoReel.html">Video Reel</a></li>
-	              <li><a href="audio.html">Audio</a></li>
-	              <li><a href="sampleList.html">Sample Set List</a></li>
-	              <li><a href="contact.html">Contact</a></li>
-	            </ul>
-	            <ul class="nav navbar-nav navbar-right">
-	              <li><a href="http://getbootstrap.com/examples/navbar-static-top/">Facebook</a></li>
-	              <li><a href="http://getbootstrap.com/examples/navbar-fixed-top/">Youtube</a></li>
-	            </ul>
-	          </div>
-	         </div>
-	    </nav>
-
-	</div>
-	<section class="team">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-10 col-md-offset-1">
-        <div class="col-lg-12">
-	        <h6 class="description">OUR TEAM</h6>
-	    	<div class="row">
-				<div class="col-lg-1 col-md-1 col-sm-2 col-xs-12 profile"></div>
-				<div class="col-lg-2 col-md-2 col-sm-3 col-xs-12 profile">
-				  <div class="img-box">
-				    <img src="http://placemi.com/petnp/600x700" class="img-responsive">
-				    <ul class="text-center">
-				    </ul>
-				  </div>
-				  <h1>Brady Conley</h1>
-				  <h2>Lead Vocals, Bass Guitar</h2>
-				  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-				</div>
-				<div class="col-lg-2 col-md-2 col-sm-3 col-xs-12 profile">
-				  <div class="img-box">
-				    <img src="http://placemi.com/xruzn/600x700" class="img-responsive">
-				  </div>
-				  <h1>Christopher Di</h1>
-				  <h2>Co-founder/ Projects</h2>
-				  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-				</div>
-				<div class="col-lg-2 col-md-2 col-sm-3 col-xs-12 profile">
-				  <div class="img-box">
-				    <img src="http://placemi.com/wctme/600x700" class="img-responsive">
-				  </div>
-				  <h1>Heather H</h1>
-				  <h2>Co-founder/ Marketing</h2>
-				  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-				</div>
-				<div class="col-lg-2 col-md-2 col-sm-3 col-xs-12 profile">
-				  <div class="img-box">
-				    <img src="http://placemi.com/qwspg/600x700" class="img-responsive">
-				  </div>
-				  <h1>Nancy Doe</h1>
-				  <h2>Designer</h2>
-				  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-				</div>
-				<div class="col-lg-2 col-md-2 col-sm-3 col-xs-12 profile">
-				  <div class="img-box">
-				    <img src="http://placemi.com/qwspg/600x700" class="img-responsive">
-				  </div>
-				  <h1>Nancy Doe</h1>
-				  <h2>Designer</h2>
-				  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-				</div>
-				<div class="col-lg-1 col-md-1 col-sm-2 col-xs-12 profile"></div>
-			</div>
+<body>
+<div class="container">
+	<nav class="navbar navbar-default">
+	    <div class="container-fluid">
+	      <div class="navbar-header">
+	        <a id="ProjectName" class="navbar-brand">Slainte The Band</a>
+	      </div>
+	      <div id="navbar" class="navbar-collapse collapse">
+	        <ul class="nav navbar-nav">
+	          <li><a href="index.html">Home</a></li>
+	          <li class="active"><a href="bandbios.html">Band Bios</a></li>
+	          <li><a href="videoReel.html">Video Reel</a></li>
+	          <li><a href="audio.html">Audio</a></li>
+	          <li><a href="sampleList.html">Sample Set List</a></li>
+	          <li><a href="contact.html">Contact</a></li>
+	        </ul>
+	        <ul class="nav navbar-nav navbar-right">
+	          <li><a href="http://getbootstrap.com/examples/navbar-static-top/">Facebook</a></li>
+	          <li><a href="http://getbootstrap.com/examples/navbar-fixed-top/">Youtube</a></li>
+	        </ul>
+	      </div>
+	     </div>
+	</nav>
+	<p id='hello'></p>
+    <div id='band' class="row">
+        <div class="col-sm-2 col-md-2">
+            <img src="http://thetransformedmale.files.wordpress.com/2011/06/bruce-wayne-armani.jpg"
+            alt="" class="img-rounded img-responsive" />
         </div>
-      </div>
+        <div class="col-sm-4 col-md-4">
+            <blockquote>
+                <p>Bruce Wayne</p> <small><cite title="Source Title">Gotham, United Kingdom  <i class="glyphicon glyphicon-map-marker"></i></cite></small>
+            </blockquote>
+            <p> <i class="glyphicon glyphicon-envelope"></i> masterwayne@batman.com
+                <br
+                /> <i class="glyphicon glyphicon-globe"></i> www.bootsnipp.com
+                <br /> <i class="glyphicon glyphicon-gift"></i> January 30, 1974</p>
+        </div>
+        <div class="col-sm-2 col-md-2">
+            <img src="http://thetransformedmale.files.wordpress.com/2011/06/bruce-wayne-armani.jpg"
+            alt="" class="img-rounded img-responsive" />
+        </div>
+        <div class="col-sm-2 col-md-4">
+            <blockquote>
+                <p>Bruce Wayne</p> <small><cite title="Source Title">Gotham, United Kingdom  <i class="glyphicon glyphicon-map-marker"></i></cite></small>
+            </blockquote>
+            <p> <i class="glyphicon glyphicon-envelope"></i> masterwayne@batman.com
+                <br
+                /> <i class="glyphicon glyphicon-globe"></i> www.bootsnipp.com
+                <br /> <i class="glyphicon glyphicon-gift"></i> January 30, 1974</p>
+        </div>
     </div>
-  </div>
-</section>
+</div>
 
+</body>
 </html>

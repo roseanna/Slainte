@@ -13,6 +13,7 @@ var shows = ["2/6/16 - McBride's Pub, Providence, RI, 8 PM",
 
 var description = "Sláinte (slahn-chuh): Irishspeak for cheers <br> Sláinte is a 5-man Irish band, based out of Boston. Formed in a dorm room at Boston College, the boys from The Heights have been playing pubs and parties in the Boston area since 2013. With upbeat sets featuring a wide range of tunes from Irish classics to Dropkick Murphys covers, and everything in between, Sláinte always brings the craic! Check out the video reel tab for recent gig highlights, or the audio tab to listen to our demo!";
 
+
 function createHome(){
 	var up = document.getElementById("upcoming");
 	up.innerHTML = "UPCOMING SHOWS<br>";
