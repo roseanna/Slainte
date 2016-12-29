@@ -1,0 +1,40 @@
+1) polished logo links to the homepage
+
+2) intuitive navigation
+
+3) get rid of clutter
+
+4) "breathing" room between paragraphs
+
+5) color: neutral palette (nature)
+
+6)professional photography>generic
+
+7) good typeface for all platforms //appropriately large font size is also good
+
+8) design as if all pages are landing pages
+
+9) call to action@ upper corner of the website
+	-:request a quote", buy now, work with us
+	-
+
+
+10) responsive design - asapts to browser size
+
+11) html5
+
+12) buttons- when you hover over it, change color/opacity/gradient
+
+13) test (squint)
+
+14) design in gray colors 
+
+15) home- 1 image that captures what the band does in layman terms
+
+16)no sidebars
+
+17)(?pinterest)
+
+18)5 second rule- 5 sec to explain value proposition to users
+
+19)
